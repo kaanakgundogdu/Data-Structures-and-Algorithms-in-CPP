@@ -46,4 +46,8 @@ int main()
     std::cout << s.getDecimalValue(head) << "\n";
     std::cout << s.getDecimalValue(head2) << "\n";
     std::cout << "Hello World!\n";
+    delete head;
+    delete sec;
+    delete third;
+    delete head2;
 }
