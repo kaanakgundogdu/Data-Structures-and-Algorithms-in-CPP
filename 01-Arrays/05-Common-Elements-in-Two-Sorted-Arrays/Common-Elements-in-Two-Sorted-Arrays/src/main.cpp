@@ -41,4 +41,6 @@ int main()
     std::array<int, 6> arr1{1,3,4,6,7,9};
     std::array<int, 6> arr2{1,2,4,5,9,10};
     print_vec(check_common_elements(arr1, arr2));
+    int a;
+    std::cin>>a;
 }
